@@ -13,7 +13,7 @@ export default function Banner() {
                             <svg class="bi"></svg>
                         </a>
                         <a class="icon-link" href="#">
-                            Experiencia
+                            Profissionais
                             <svg class="bi"></svg>
                         </a>
                     </div>
