@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/curriculo/static/css/main.5f2fffd1.css",
-    "main.js": "/curriculo/static/js/main.e71b4010.js",
+    "main.js": "/curriculo/static/js/main.e08e858a.js",
     "index.html": "/curriculo/index.html",
     "main.5f2fffd1.css.map": "/curriculo/static/css/main.5f2fffd1.css.map",
-    "main.e71b4010.js.map": "/curriculo/static/js/main.e71b4010.js.map"
+    "main.e08e858a.js.map": "/curriculo/static/js/main.e08e858a.js.map"
   },
   "entrypoints": [
     "static/css/main.5f2fffd1.css",
-    "static/js/main.e71b4010.js"
+    "static/js/main.e08e858a.js"
   ]
 }
