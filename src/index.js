@@ -8,13 +8,14 @@ import Footer from './components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <div className="bg-max">
+    <div className="bg-max">
                 <div className="bg-home h-100">
                     <Header />
                     <App />
                     <Footer />
                 </div>
             </div >
+   
   </React.StrictMode>
 );
 

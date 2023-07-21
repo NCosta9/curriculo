@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
@@ -6,16 +6,17 @@ import Sobre from './pages/Sobre';
 
 function RoutesApp() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+
+        <HashRouter basename="/app">
             <Routes>
 
                 <Route path="/" element={<Home />} />
-                <Route path="/sobre" element={<Sobre/>} />
+                <Route path="/sobre" element={<Sobre />} />
 
 
             </Routes>
+        </HashRouter>
 
-        </BrowserRouter>
 
     )
 
