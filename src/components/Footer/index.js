@@ -1,27 +1,14 @@
 export default function Footer() {
     return (
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 border-top fixed-bottom">
-            <div className="col-md-4 d-flex align-items-center">
-                <span className="mb-3 mb-md-0 text-light">© 2023 Natanael A Costa</span>
-            </div>
-
-            <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li className="ms-3">
-                    <a className="text-body-secondary" href="#">
-                        <img className='icon' src='https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/github' width={35} />
-                    </a>
-                </li>
-                <li className="ms-3">
-                    <a className="text-body-secondary" href="#">
-                        <img className='icon' src='https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/instagram' width={35} />
-                    </a>
-                </li>
-                <li className="ms-3">
-                    <a className="text-body-secondary" href="#">
-                        <img className='icon text-secondary' src='https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/whatsapp' width={35} />
-                    </a>
-                </li>
+        <footer class="py-3">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
             </ul>
+            <p class="text-center text-body-secondary text-geral">© 2023 Natanael A Costa</p>
         </footer>
     )
 }

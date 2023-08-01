@@ -1,25 +1,20 @@
 import './banner.css'
+import Header from '../Header';
+
 export default function Banner() {
     return (
         <>
-            <div class="display-flex w-100 p-3  text-center">
-                <div class="col-md-6 p-lg-5 mx-auto my-5">
-                    <img className="perfil" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/perfil"/>
-                    <h3 class=" display-6 fw-bold text-light">Natanael Alves da Costa </h3>
-                    <h5 class="fw-normal text-light mb-3 px-5">"Aos outros dou o direito de serem como são, mas a mim, dou o <b>dever</b> de ser cada dia melhor"</h5>
-                    <div class="d-flex gap-3 justify-content-center lead fw-normal">
-                        <a class="icon-link" href="#">
-                            Habilidades
-                            <svg class="bi"></svg>
-                        </a>
-                        <a class="icon-link" href="#">
-                            Profissionais
-                            <svg class="bi"></svg>
-                        </a>
+            <div className="display-flex w-100 p-3 text-center bg-max ">
+                <Header />
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                    <div class="col d-flex flex-column align-items-start gap-2 ms-5 p-5">
+                        <h1 className='text-geral text-red'>Bem-vindo</h1>
+                        <p className='text-geral fs-4 text-start'>Meu nome é <b className='text-red'>Natanael Alves da Costa</b>, conheça aqui um pouco sobre o meu trabalho e sobre mim</p>
+                    </div>
+                    <div class="col">
+                        
                     </div>
                 </div>
-                <div class="product-device shadow-sm d-none d-md-block"></div>
-                <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
             </div>
         </>
     )

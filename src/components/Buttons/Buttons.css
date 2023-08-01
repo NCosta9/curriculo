@@ -1,0 +1,16 @@
+.btn-black{
+    background-color: antiquewhite;
+    box-shadow:5px 5px 0px 0px #000;
+    border-radius: 0px;
+    font-weight: 700;
+   
+}
+
+.btn-black:hover {
+background-color:   #8c8c8c;
+}
+
+a:link{
+    text-decoration: none;
+    color: #000;
+}

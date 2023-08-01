@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .bg-max{
-  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/bg2');
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/minha%20foto%20fundo3');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,9 +17,25 @@
 
 }
 
-
+.text-geral{
+  font-family: 'Roboto Mono', monospace;
+}
 
 body{
   padding: 0;
   margin: 0;
+  background-color: #000;
+  color:#fff
 }
+
+.text-red{
+  color: #FF4500;
+}
+
+.bg-icon{
+  background-color: #000;
+ }
+ #progress-bar-100{
+  background-color: #FF4500;
+ }
+ 
