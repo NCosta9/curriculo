@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
                 <div className="">
-                <div className="bg-home h-100">
+                <div className="">
                     <App />
                     </div>
             </div>

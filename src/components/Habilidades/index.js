@@ -1,33 +1,62 @@
-export default function Habilidades() {
-    return (
-        <div className="container shadow-lgpb-5">
-            <h1 className="display-4 fw-bold text-center mt-5"> Habilidades</h1>
-            <h5 className="text-light mt-3">
-                <img src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/js" className="mx-2" height="36"/>
-            Java Script
-            </h5>
-            <div className="progress">
-                <div id="progress-bar-100" className="progress-bar" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-            </div>
-            <h5 className="text-light mt-3">
-            <img src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/css" className="mx-2" height="36"/>
-                CSS 3</h5>
-            <div className="progress">
-                <div id="progress-bar-100" className="progress-bar" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-            </div>
-            <h5 className="text-light mt-3">
-            <img src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/bootstrap" className="mx-2" height="36"/>
-              Bootstrap</h5>
-            <div className="progress">
-                <div id="progress-bar-100" className="progress-bar" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-            </div>
-            <h5 className="text-light mt-3">
-            <img src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/reactjs" className="mx-2" height="36"/>
-                ReactJs</h5>
-            <div className="progress">
-                <div id="progress-bar-100" className="progress-bar" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-            </div>
 
+
+export default function Habilidades() {
+
+
+    return (
+        <div className="container shadow-lgpb-5 text-geral">
+            <h1 className="display-4 fw-bold text-center mt-5"> Skill Dev</h1>
+            <div className="row">
+
+                <div className="col">
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/git" height="36" />Git</h5>
+
+                    <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-25 text-end"><span className="mx-3">25%</span></div>
+                    </div>
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/js" height="36" />Java Script</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-50 text-end"><span className="mx-3">50%</span></div>
+                    </div>
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/php" height="36" />PHP</h5>
+                    <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-75 text-end"><span className="mx-3">75%</span></div>
+                    </div>
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/css" height="36" />CSS</h5>
+                    <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-75 text-end"><span className="mx-3">75%</span></div>
+                    </div>
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/bootstrap" height="36" />Bootstrap</h5>
+                    <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-100 text-end"><span className="mx-3">100%</span></div>
+                    </div>
+                </div>
+
+
+                <div className="col">
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/elementor" height="36" />Elementor</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-100 text-end"><span className="mx-3">100%</span></div>
+                    </div>
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/mysql" height="36" />MySql</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-75 text-end"><span className="mx-3">75%</span></div>
+                    </div>
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/reactjs" height="36" />ReactJs</h5>
+                    <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-75 text-end"><span className="mx-3">75%</span></div>
+                    </div>
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/wordpress" height="36" />Wordpress</h5>
+                    <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-100 text-end"><span className="mx-3">100%</span></div>
+                    </div>
+                    <h5 className="text-geral mt-3"> <img className="mx-2" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/habilidades/phpMyAdmin" height="36" />PhpMyAdmin</h5>
+                    <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-75 text-end"><span className="mx-3">75%</span></div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 

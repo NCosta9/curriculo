@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+*{
+  margin: 0 auto;
+}
 .bg-max{
   background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/minha%20foto%20fundo3');
   background-repeat: no-repeat;
@@ -8,10 +10,7 @@
   background-attachment: fixed;
 
   background-color: #fff ;
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-
+width: 100%;
   
 
 
@@ -19,6 +18,7 @@
 
 .text-geral{
   font-family: 'Roboto Mono', monospace;
+  font-size: 1.0em;
 }
 
 body{
@@ -29,13 +29,68 @@ body{
 }
 
 .text-red{
-  color: #FF4500;
+  color: #c12437;
 }
 
 .bg-icon{
   background-color: #000;
  }
- #progress-bar-100{
-  background-color: #FF4500;
+ 
+ .progress-100{
+  background-color: #c12437;
+  width: 100%;
+ }
+ .progress-75{
+  background-color: #c12437;
+  width: 75%;
+  margin-left: 0;
+
+ }
+ .progress-50{
+  background-color: #c12437;
+  width: 50%;
+  margin-left: 0;
+ }
+ .progress-25{
+  background-color: #c12437;
+  width: 20%;
+  margin-left: 0;
+ }
+
+ .main-banner{
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/imagens/minha%20foto%20fundo3');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
  }
  
+ .div-spacing{
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15em;
+  padding-bottom: 15em;
+  text-align: left;
+ }
+
+ .bg-footer{
+  background-color: #1c1c1c;
+ }
+
+ .img-tools{
+	display:inline-block;
+    height: 60px;
+	margin: 20px 5px 20px auto;
+	transition: .3s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+    border-radius: 15px;
+}
+
+.img-tools:hover {
+	-webkit-filter: none;	
+	filter: none;	
+}
