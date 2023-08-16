@@ -14,7 +14,7 @@ export default function Experiencia() {
                                 <h5 class="mb-1 text-red">Operador de Telemarketing Ativo   </h5>
                                 <small>6 Meses</small>
                             </div>
-                            <p class="mb-1">Trabalhava na venda de cartões de credito, e atuava com service desk prestando suporte tecnicos em informatica interno para os funcionarios e para a empresa</p>
+                            <p class="mb-1">Trabalhava na venda de cartões de credito, e atuava com service desk prestando suporte tecnico em informatica interno para colaboradores da empresa</p>
                             <small className="fw-bold">S&J-Soluções Financeiras LTDA</small>
                             <hr className="mb-5" />
                             {/* ---inicio div empresa--- */}
@@ -30,8 +30,8 @@ export default function Experiencia() {
                                 <h5 class="mb-1 text-red"> Tecnico Instalador e Reparador de Redes Fibra Otica</h5>
                                 <small>Desde de 05/2022- Atualmente </small>
                             </div>
-                            <p class="mb-1">Atuo  no suporte tecnico ao cliente com problemas internet e na resolução de problemas tecnicos internos. 
-                            Reliza provisionamento e desprovisionamento. Liberação de linha telefônica. reponsavél por todo o conteúdo do site da empresa, edição e analise. </p>
+                            <p class="mb-1">Atua  no suporte tecnico ao cliente com problemas na internet e na resolução de problemas tecnicos internos. 
+                            Reliza provisionamento e desprovisionamento. Liberação de linha telefônica. reponsavél por todo o conteúdo do site da empresa, edição e analise. Formatação de Maquinas dos servidores, monitoramento de clientes. Congirações de onu router e roteadores. </p>
                             <small className="fw-bold">Netsim Provedor de Sistema de Integração a Midia LTDA </small>
                             <hr className="mb-5" />
                           
